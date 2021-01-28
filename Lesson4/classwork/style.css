@@ -1,0 +1,11 @@
+.wrapper {
+    box-sizing: content-box;
+}
+
+.header {
+margin: 0 auto;
+padding: 55px 240px;
+width: 800px;
+background: #555555;
+box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
