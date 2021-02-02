@@ -1,0 +1,25 @@
+.main {
+    width: 280px;
+    margin: auto;        
+        }
+h3 {
+    font-family: Roboto;
+    font-size: 36px;
+    color: #FFFFFF;
+    padding: 12px 94px;
+}
+.date {
+    background: #62A1FF;
+}
+
+img {
+    padding: 33px 42px 4px;
+    width: 200px;
+}
+p {
+    font-family: Roboto;
+    font-size: 48px;
+    line-height: 56px;
+    color: #000000;
+    padding: 0px 97px;        
+}
