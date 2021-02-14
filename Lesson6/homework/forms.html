@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Forms</title>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <p class="header__text">Contact manager</p>
+        </div> 
+        <div class="hero">
+        <fieldset class="leftColumn">
+            First name:<p style="color: red;">*</p> <input type="text" name="firstName"> <br>
+            Last name:<p style="color: red;">*</p> <input type="text" name="lastName"> <br> 
+            Address <textarea rows="10" cols="45" name="address"></textarea> <br> 
+            City <input type="text" name="city"> <br> 
+            State <select name="state"> 
+                <option value="Arizona" selected>Arizona</option> 
+                <option value="California">California</option> 
+                <option value="Kansas">Kansas</option> 
+                <option value="Nevada">Nevada</option> 
+            </select> <br>
+            Zip <input type="text" name="zip"> <br> 
+            Home Phone <input type="text" size="10" name="homePhone"> <br>
+            Work Phone <p style="color: red;">*</p> <input type="text" size="20" name="workPhone"> <br> 
+            Fax Number <input type="text" size="20" name="faxNumber"> <br> 
+            Website <fieldset style="border: 0px white;">
+                URL <input type="text" name="url"> <br> 
+                Link name <input type="text" name="linkName"> <br>
+            </fieldset>
+            Email Address <p style="color: red;">*</p> <input type="text" name="email"> <br> 
+    
+        </fieldset>
+        <fieldset class="rightColumn">
+            When is the best time to contact <br> you? 
+            <fieldset style="border: 0px white;"> 
+                <input type="radio" name="time" value="Morning"> Morning <br>
+                <input type="radio" name="time" value="Afternoon"> Afternoon <br>
+                <input type="radio" name="time" value="Evening"> Evening </fieldset><br>
+            What is the best way to contact <br> you? 
+            <fieldset style="border: 0px white;"> 
+                <input type="radio" name="way" value="Phone"> Phone <br>
+                <input type="radio" name="way" value="Email"> Email <br>
+                <input type="radio" name="way" value="Fax"> Fax </fieldset><br>
+            Message <textarea rows="10" cols="45" name="address"></textarea> <br>
+        </fieldset>
+    </div>
+    <div class="footer">
+        <p><input type="submit" value="Submit" class="submitField"> </p>
+        <p><input type="reset" value="Reset" class="resetField"></p>
+    </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,48 @@
+* {
+    box-sizing: border-box;
+}
+.container {
+    margin: 0 auto;
+    width: 1205px;
+    justify-content: center;
+}
+
+.header {
+    background-color: darkseagreen;
+    padding-top: 1px;
+    height: 40px;
+
+}
+
+.leftColumn {
+    float: left;
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    border: white;
+}
+.rightColumn {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    border: white;
+}
+.footer {
+    display: flex;
+    flex-direction:row;
+    align-items:flex-end;
+    justify-content:center;
+
+    background-color: gray;
+}
+
+.submitField {
+    background-color: green;
+    color: white;
+    margin-right: 15px;
+}
+.resetField {
+    background-color: green;
+    color: white;
+}
